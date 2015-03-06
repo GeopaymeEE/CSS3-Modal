@@ -1,5 +1,5 @@
 /* Normal styles for the modal */
-#modal {
+#toc {
 	left:75%;
 	margin:-250px 0 0 -40%;
 	opacity: 0;
@@ -14,40 +14,40 @@
 	-webkit-transition: all 0.4s ease-in-out;
 }
 	/* Make the modal appear when targeted */
-	#modal:target {
+	#toc:target {
 		opacity: 1;
 		top:50%;
 		visibility: visible;
 	}
-#modal .header,#modal .footer {
+#toc .header,#toc .footer {
 	border-bottom: 1px solid #e7e7e7;
 	border-radius: 5px 5px 0 0;
 }
-	#modal .footer {
+	#toc .footer {
 		border:none;
 		border-top: 1px solid #e7e7e7;
 		border-radius: 0 0 5px 5px;
 	}
-#modal h2 {
+#toc h2 {
 	margin:0;
 }
-#modal .btn {
+#toc .btn {
 	float:right;
 }
-#modal .copy,#modal .header, #modal .footer {
+#toc .copy,#toc .header, #toc .footer {
 	padding:15px;
 }
-.modal-content {
+.toc-content {
 	background: #f7f7f7;
 	position: relative;
 	z-index: 20;
 	border-radius:5px;
 }
-#modal .copy {
+#toc .copy {
 	background: #fff;
 }
 
-#modal .overlay {
+#toc .overlay {
 	background-color: #000;
 	background: rgba(0,0,0,.5);
 	height: 100%;
